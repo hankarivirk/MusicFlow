@@ -1,0 +1,12 @@
+{
+  "play_1": "⚡ **Searching:** `{0}`...",
+  "play_2": "🎵 **Streaming Track**\n\n**Title:** [{0}]({1})\n**Duration:** `{2}`\n**Requested by:** {3}\n**Stream:** `Fast Mode`",
+  "play_3": "❌ **Failed to fetch track.**",
+  "close_1": "🗑️ Closed",
+  "auth_1": "🔒 You must be an admin to use this command.",
+  "pause_1": "⏸ **Track paused.**",
+  "resume_1": "▶️ **Track resumed.**",
+  "stop_1": "⏹ **Playback stopped.**",
+  "skip_1": "⏭ **Track skipped.**",
+  "queue_1": "📋 **Upcoming Queue:**\n\n{0}"
+}

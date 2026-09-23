@@ -1,0 +1,20 @@
+{
+  "name": "Music Flow",
+  "description": "High-fidelity Telegram music streaming bot with AutoPlay, smart recommendations, and full playlist fetching.",
+  "keywords": ["telegram", "music", "bot", "pyrogram", "pytgcalls"],
+  "repository": "https://github.com/your-username/MusicFlowBot",
+  "stack": "container",
+  "env": {
+    "API_ID": { "description": "Get this from my.telegram.org", "required": true },
+    "API_HASH": { "description": "Get this from my.telegram.org", "required": true },
+    "BOT_TOKEN": { "description": "Get this from @BotFather", "required": true },
+    "STRING_SESSION": { "description": "Pyrogram string session for assistant", "required": true },
+    "MONGO_DB_URI": { "description": "MongoDB connection string", "required": true },
+    "OWNER_ID": { "description": "Numeric Telegram ID of bot owner", "required": true },
+    "LOG_GROUP_ID": { "description": "Telegram group ID for logging", "required": true },
+    "SUPPORT_CHANNEL": { "description": "Link to your updates channel", "required": false, "value": "https://t.me/YourChannel" },
+    "PLAYLIST_FETCH_LIMIT": { "description": "Max songs to fetch per playlist", "required": false, "value": "50" },
+    "START_IMG_URL": { "description": "Direct image URL for start message", "required": false, "value": "https://telegra.ph/file/8b0062b1b31a830b806f1.jpg" },
+    "PING_IMG_URL": { "description": "Direct image URL for ping message", "required": false, "value": "https://telegra.ph/file/8b0062b1b31a830b806f1.jpg" }
+  }
+}
