@@ -1,4 +1,4 @@
-FROM python:3.11-slim-buster
+FROM python:3.11-slim-bookworm
 
 RUN apt-get update -y && apt-get upgrade -y     && apt-get install -y --no-install-recommends ffmpeg curl git     && apt-get clean     && rm -rf /var/lib/apt/lists/*
 
